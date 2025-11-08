@@ -13,18 +13,18 @@ ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
 FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine AS build
 WORKDIR /src
 COPY ["./Directory.Packages.props", "./"]
-COPY ["src/Boilerplate.Api/Boilerplate.Api.csproj", "src/Boilerplate.Api/"]
-COPY ["src/Boilerplate.Application/Boilerplate.Application.csproj", "src/Boilerplate.Application/"]
-COPY ["src/Boilerplate.Domain/Boilerplate.Domain.csproj", "src/Boilerplate.Domain/"]
-COPY ["src/Boilerplate.Infrastructure/Boilerplate.Infrastructure.csproj", "src/Boilerplate.Infrastructure/"]
+COPY ["src/Api/Api.csproj", "src/Api/"]
+COPY ["src/Application/Application.csproj", "src/Application/"]
+COPY ["src/Domain/Domain.csproj", "src/Domain/"]
+COPY ["src/Infrastructure/Infrastructure.csproj", "src/Infrastructure/"]
 COPY . .
-WORKDIR "/src/src/Boilerplate.Api"
+WORKDIR "/src/src/Api"
 
 FROM build AS publish
-RUN dotnet publish "Boilerplate.Api.csproj" -c Release -o /app/publish
+RUN dotnet publish "Api.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 USER $APP_UID 
-ENTRYPOINT ["dotnet", "Boilerplate.Api.dll"]
+ENTRYPOINT ["dotnet", "Api.dll"]
