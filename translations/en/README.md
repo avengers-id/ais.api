@@ -1,7 +1,7 @@
 # dotnet-api-boilerplate
 <p align="center">
   <span>English</span> |
-  <a href="translations/id/README.md">Bahasa Indonesia</a>
+  <a href="../id/README.md">Bahasa Indonesia</a>
 </p>
 
 A ``.Net 9.0`` WebApi boilerplate / template project. MediatR, Swagger, ~~AutoMapper~~ Mapster, Serilog and more implemented. 
@@ -61,7 +61,7 @@ For more information, please take a look on swagger documentation.
 - Authorization
 - Unit tests
 - Integration tests with testcontainers
-- Container support with [docker](src/Api/dockerfile) and [docker-compose](docker-compose.yml)
+- Container support with [docker](../../src/Api/dockerfile) and [docker-compose](../../docker-compose.yml)
 - OpenTelemetry support (with OLTP as default exporter)
 - NuGet Central package management (CPM)
 
@@ -107,4 +107,4 @@ If this template was useful for you, or if you learned something, please give it
 This project has great influence of https://github.com/lkurzyniec/netcore-boilerplate and https://github.com/EduardoPires/EquinoxProject. If you have time, please visit these repos, and give them a star, too!
 
 # About
-This boilerplate/template was developed by Yan Pitangui under [MIT license](LICENSE).
+This boilerplate/template was developed by Yan Pitangui under [MIT license](../../LICENSE).
