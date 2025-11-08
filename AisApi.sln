@@ -44,7 +44,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deps", "deps", "{4BE8D923-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rules", "rules", "{B9AA6117-3A61-4E16-9281-D4C4A9B5253F}"
 	ProjectSection(SolutionItems) = preProject
-		Boilerplate.ruleset = Boilerplate.ruleset
+                AisApi.ruleset = AisApi.ruleset
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
@@ -58,10 +58,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{16C3D5B3-4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "translations", "translations", "{520CE7D7-4CCD-4C9B-9BEA-7C2AE5CAE7FB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pt-br", "pt-br", "{D0E8EF0A-6B01-497F-B282-0C1939A97DE3}"
-	ProjectSection(SolutionItems) = preProject
-		translations\pt-br\README.md = translations\pt-br\README.md
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "en", "en", "{36B547AC-E234-45B4-A29A-1310475F7524}"
+        ProjectSection(SolutionItems) = preProject
+                translations\en\README.md = translations\en\README.md
+        EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "id", "id", "{A3B021F2-699E-4334-8267-8F9E1EBE5141}"
+        ProjectSection(SolutionItems) = preProject
+                translations\id\README.md = translations\id\README.md
+        EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -118,7 +123,8 @@ Global
 		{B9AA6117-3A61-4E16-9281-D4C4A9B5253F} = {346415FF-9233-459C-AE00-06ACFE985BC1}
 		{16C3D5B3-4A1C-48B3-979F-29400BB2ECE7} = {346415FF-9233-459C-AE00-06ACFE985BC1}
 		{520CE7D7-4CCD-4C9B-9BEA-7C2AE5CAE7FB} = {16C3D5B3-4A1C-48B3-979F-29400BB2ECE7}
-		{D0E8EF0A-6B01-497F-B282-0C1939A97DE3} = {520CE7D7-4CCD-4C9B-9BEA-7C2AE5CAE7FB}
+                {36B547AC-E234-45B4-A29A-1310475F7524} = {520CE7D7-4CCD-4C9B-9BEA-7C2AE5CAE7FB}
+                {A3B021F2-699E-4334-8267-8F9E1EBE5141} = {520CE7D7-4CCD-4C9B-9BEA-7C2AE5CAE7FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {541B563F-712B-4BF0-851D-756E0B417E4C}
