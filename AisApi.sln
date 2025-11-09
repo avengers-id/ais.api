@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Persistence", "4 - Pers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.UnitTests", "tests\Api.UnitTests\Api.UnitTests.csproj", "{B5DE98B8-8DC7-4A0E-B396-654DF67E3BFF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.IntegrationTest", "tests\Api.IntegrationTest\Api.IntegrationTest.csproj", "{92EEC4C4-C67F-4396-B93A-396DF9E9B307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.IntegrationTests", "test\Api.IntegrationTests\Api.IntegrationTests.csproj", "{92EEC4C4-C67F-4396-B93A-396DF9E9B307}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7873047B-1B2D-40D8-AEBE-587D2E3C201B}"
 EndProject
