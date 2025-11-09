@@ -1,6 +1,6 @@
 ﻿using Boilerplate.Api;
-using Boilerplate.Application.Common;
-using Boilerplate.Infrastructure;
+using Application.Common;
+using Infrastructure;
 using EntityFramework.Exceptions.PostgreSQL;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;

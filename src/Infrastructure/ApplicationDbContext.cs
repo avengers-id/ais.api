@@ -1,12 +1,12 @@
-﻿using Boilerplate.Application.Common;
-using Boilerplate.Domain.Entities;
-using Boilerplate.Infrastructure.Configuration;
+﻿using Application.Common;
+using Domain.Entities;
 using EntityFramework.Exceptions.PostgreSQL;
+using Infrastructure.Configuration;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace Boilerplate.Infrastructure;
+namespace Infrastructure;
 
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, Guid>, IContext
 {

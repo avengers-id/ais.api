@@ -1,9 +1,9 @@
-﻿using Boilerplate.Domain.Entities;
-using Boilerplate.Domain.Entities.Common;
+﻿using Domain.Entities;
+using Domain.Entities.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Boilerplate.Infrastructure.Configuration;
+namespace Infrastructure.Configuration;
 
 public class HeroConfiguration : IEntityTypeConfiguration<Hero>
 {

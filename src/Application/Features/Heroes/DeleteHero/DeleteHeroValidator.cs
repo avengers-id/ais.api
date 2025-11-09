@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Boilerplate.Application.Features.Heroes.DeleteHero;
+namespace Application.Features.Heroes.DeleteHero;
 
 public class DeleteHeroValidator : AbstractValidator<DeleteHeroRequest>
 {

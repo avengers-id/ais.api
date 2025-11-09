@@ -1,4 +1,4 @@
-﻿namespace Boilerplate.Domain.Entities.Common;
+﻿namespace Domain.Entities.Common;
 
 public abstract class Entity<T>
 {

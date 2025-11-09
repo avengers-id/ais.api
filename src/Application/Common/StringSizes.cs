@@ -1,4 +1,4 @@
-﻿namespace Boilerplate.Application.Common;
+﻿namespace Application.Common;
 
 public static class StringSizes
 {

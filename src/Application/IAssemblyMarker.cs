@@ -1,4 +1,4 @@
-﻿namespace Boilerplate.Application;
+﻿namespace Application;
 
 public interface IAssemblyMarker
 {

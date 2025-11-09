@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Boilerplate.Domain.Entities.Common;
+using Domain.Entities.Common;
 
-namespace Boilerplate.Domain.Entities;
+namespace Domain.Entities;
 
 public class SchoolYearInvoice : SoftDeletableEntity<int>
 {

@@ -1,8 +1,8 @@
-using Boilerplate.Domain.Entities;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Boilerplate.Infrastructure.Configuration;
+namespace Infrastructure.Configuration;
 
 public class GenerationConfiguration : IEntityTypeConfiguration<Generation>
 {

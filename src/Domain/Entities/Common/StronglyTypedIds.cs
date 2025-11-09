@@ -3,7 +3,7 @@ using System;
 
 [assembly: StronglyTypedIdDefaults(Template.Guid, "guid-efcore")]
 
-namespace Boilerplate.Domain.Entities.Common;
+namespace Domain.Entities.Common;
 
 
 public interface IGuid {}

@@ -1,10 +1,10 @@
-﻿using Boilerplate.Domain.Entities.Common;
+﻿using Domain.Entities.Common;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Security.Claims;
-using ISession = Boilerplate.Domain.Auth.Interfaces.ISession;
+using ISession = Domain.Auth.Interfaces.ISession;
 
-namespace Boilerplate.Application.Auth;
+namespace Application.Auth;
 
 public class Session : ISession
 {

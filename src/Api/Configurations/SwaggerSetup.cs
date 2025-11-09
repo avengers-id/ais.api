@@ -1,4 +1,4 @@
-﻿using Boilerplate.Domain.Entities.Common;
+﻿using Domain.Entities.Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;

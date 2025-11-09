@@ -1,7 +1,7 @@
 using System;
-using Boilerplate.Domain.Entities.Common;
+using Domain.Entities.Common;
 
-namespace Boilerplate.Domain.Entities;
+namespace Domain.Entities;
 
 public class Reward : SoftDeletableEntity<int>
 {

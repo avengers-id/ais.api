@@ -1,9 +1,9 @@
-using Boilerplate.Application.Features.Heroes.CreateHero;
-using Boilerplate.Domain.Entities;
+using Application.Features.Heroes.CreateHero;
+using Domain.Entities;
 using Riok.Mapperly.Abstractions;
 using System.Linq;
 
-namespace Boilerplate.Application.Features.Heroes;
+namespace Application.Features.Heroes;
 
 [Mapper]
 public static partial class Mapper

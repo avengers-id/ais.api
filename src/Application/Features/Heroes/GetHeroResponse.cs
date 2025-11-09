@@ -1,7 +1,7 @@
-﻿using Boilerplate.Domain.Entities.Common;
-using Boilerplate.Domain.Entities.Enums;
+﻿using Domain.Entities.Common;
+using Domain.Entities.Enums;
 
-namespace Boilerplate.Application.Features.Heroes;
+namespace Application.Features.Heroes;
 
 public record GetHeroResponse
 {

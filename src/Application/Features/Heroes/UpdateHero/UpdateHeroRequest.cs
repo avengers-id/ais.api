@@ -1,10 +1,10 @@
 ﻿using Ardalis.Result;
-using Boilerplate.Domain.Entities.Common;
-using Boilerplate.Domain.Entities.Enums;
+using Domain.Entities.Common;
+using Domain.Entities.Enums;
 using MediatR;
 using System.Text.Json.Serialization;
 
-namespace Boilerplate.Application.Features.Heroes.UpdateHero;
+namespace Application.Features.Heroes.UpdateHero;
 
 public record UpdateHeroRequest : IRequest<Result<GetHeroResponse>>
 {

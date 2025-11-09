@@ -1,8 +1,8 @@
-﻿using Boilerplate.Domain.Entities.Common;
-using Boilerplate.Domain.Entities.Enums;
+﻿using Domain.Entities.Common;
+using Domain.Entities.Enums;
 using System;
 
-namespace Boilerplate.Domain.Entities;
+namespace Domain.Entities;
 
 public class Hero : Entity<HeroId>
 {

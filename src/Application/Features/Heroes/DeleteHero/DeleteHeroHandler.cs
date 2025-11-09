@@ -1,11 +1,11 @@
-﻿using Ardalis.Result;
-using Boilerplate.Application.Common;
+﻿using Application.Common;
+using Ardalis.Result;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Boilerplate.Application.Features.Heroes.DeleteHero;
+namespace Application.Features.Heroes.DeleteHero;
 
 public class DeleteHeroHandler : IRequestHandler<DeleteHeroRequest, Result>
 {

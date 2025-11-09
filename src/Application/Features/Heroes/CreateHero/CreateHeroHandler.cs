@@ -1,10 +1,10 @@
-﻿using Ardalis.Result;
-using Boilerplate.Application.Common;
+﻿using Application.Common;
+using Ardalis.Result;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Boilerplate.Application.Features.Heroes.CreateHero;
+namespace Application.Features.Heroes.CreateHero;
 
 public class CreateHeroHandler : IRequestHandler<CreateHeroRequest, Result<GetHeroResponse>>
 {

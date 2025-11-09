@@ -1,6 +1,6 @@
 using System;
 
-namespace Boilerplate.Domain.Entities.Common;
+namespace Domain.Entities.Common;
 
 public abstract class AuditableEntity<T> : Entity<T>
 {

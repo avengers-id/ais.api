@@ -1,5 +1,5 @@
-﻿using Boilerplate.Application.Common;
-using Boilerplate.Infrastructure;
+﻿using Application.Common;
+using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Boilerplate.Api.Configurations;

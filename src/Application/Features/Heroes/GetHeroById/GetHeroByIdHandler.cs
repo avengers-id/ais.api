@@ -1,11 +1,11 @@
-﻿using Ardalis.Result;
-using Boilerplate.Application.Common;
+﻿using Application.Common;
+using Ardalis.Result;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Boilerplate.Application.Features.Heroes.GetHeroById;
+namespace Application.Features.Heroes.GetHeroById;
 
 public class GetHeroByIdHandler : IRequestHandler<GetHeroByIdRequest, Result<GetHeroResponse>>
 {

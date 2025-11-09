@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Boilerplate.Application.Extensions;
+namespace Application.Extensions;
 
 public static class OpenTelemetryExtensions
 {

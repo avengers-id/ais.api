@@ -1,11 +1,11 @@
-﻿using Boilerplate.Domain.Entities;
+﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Boilerplate.Application.Common;
+namespace Application.Common;
 
 public interface IContext : IAsyncDisposable, IDisposable
 {

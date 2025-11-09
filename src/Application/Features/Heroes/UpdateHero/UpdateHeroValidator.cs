@@ -1,7 +1,7 @@
-﻿using Boilerplate.Application.Common;
+﻿using Application.Common;
 using FluentValidation;
 
-namespace Boilerplate.Application.Features.Heroes.UpdateHero;
+namespace Application.Features.Heroes.UpdateHero;
 
 public class UpdateHeroValidator : AbstractValidator<UpdateHeroRequest>
 {

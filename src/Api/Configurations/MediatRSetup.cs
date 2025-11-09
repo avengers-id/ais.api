@@ -1,4 +1,4 @@
-﻿using Boilerplate.Application.Common.Behaviors;
+﻿using Application.Common.Behaviors;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Boilerplate.Api.Configurations;
@@ -9,7 +9,7 @@ public static class MediatRSetup
     {
         services.AddMediatR((config) =>
         {
-            config.RegisterServicesFromAssemblyContaining(typeof(Boilerplate.Application.IAssemblyMarker));
+            config.RegisterServicesFromAssemblyContaining(typeof(Application.IAssemblyMarker));
             config.AddOpenBehavior(typeof(ValidationResultPipelineBehavior<,>));
         });
         

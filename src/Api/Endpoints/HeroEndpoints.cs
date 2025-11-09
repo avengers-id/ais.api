@@ -1,16 +1,16 @@
 ﻿using Ardalis.Result.AspNetCore;
-using Boilerplate.Application.Features.Heroes.CreateHero;
-using Boilerplate.Application.Features.Heroes.DeleteHero;
-using Boilerplate.Application.Features.Heroes.GetAllHeroes;
-using Boilerplate.Application.Features.Heroes.GetHeroById;
-using Boilerplate.Application.Features.Heroes.UpdateHero;
-using Boilerplate.Domain.Entities.Common;
+using Application.Features.Heroes.CreateHero;
+using Application.Features.Heroes.DeleteHero;
+using Application.Features.Heroes.GetAllHeroes;
+using Application.Features.Heroes.GetHeroById;
+using Application.Features.Heroes.UpdateHero;
+using Domain.Entities.Common;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 
-namespace Boilerplate.Api.Endpoints;
+namespace Api.Endpoints;
 
 public static class HeroEndpoints
 {

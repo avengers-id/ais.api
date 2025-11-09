@@ -1,8 +1,8 @@
-﻿using Boilerplate.Application.Common;
+﻿using Application.Common;
 using System;
 using System.Collections.Generic;
-using Boilerplate.Domain.Entities;
-using Boilerplate.Domain.Entities.Enums;
+using Domain.Entities;
+using Domain.Entities.Enums;
 
 namespace Api.IntegrationTests.Helpers;
 

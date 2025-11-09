@@ -1,13 +1,13 @@
-﻿using Boilerplate.Application.Common;
-using Boilerplate.Application.Common.Responses;
-using Boilerplate.Application.Extensions;
+﻿using Application.Common;
+using Application.Common.Responses;
+using Application.Extensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Boilerplate.Application.Features.Heroes.GetAllHeroes;
+namespace Application.Features.Heroes.GetAllHeroes;
 
 public class GetAllHeroesHandler : IRequestHandler<GetAllHeroesRequest, PaginatedList<GetHeroResponse>>
 {

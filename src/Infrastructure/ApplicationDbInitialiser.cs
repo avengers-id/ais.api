@@ -6,7 +6,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Boilerplate.Infrastructure;
+namespace Infrastructure;
 
 public class ApplicationDbInitializer : IHostedService
 {

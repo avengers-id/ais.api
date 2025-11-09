@@ -1,8 +1,8 @@
 ﻿using Ardalis.Result;
-using Boilerplate.Domain.Entities.Enums;
+using Domain.Entities.Enums;
 using MediatR;
 
-namespace Boilerplate.Application.Features.Heroes.CreateHero;
+namespace Application.Features.Heroes.CreateHero;
 
 public record CreateHeroRequest : IRequest<Result<GetHeroResponse>>
 {

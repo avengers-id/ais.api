@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Boilerplate.Application.Common.Responses;
+namespace Application.Common.Responses;
 
 public record PaginatedList<T>
 {

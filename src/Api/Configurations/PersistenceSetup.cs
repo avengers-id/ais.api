@@ -1,6 +1,6 @@
-﻿using Boilerplate.Application.Auth;
-using Boilerplate.Domain.Auth.Interfaces;
-using Boilerplate.Infrastructure;
+﻿using Application.Auth;
+using Domain.Auth.Interfaces;
+using Infrastructure;
 using EntityFramework.Exceptions.PostgreSQL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

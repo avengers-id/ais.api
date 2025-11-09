@@ -1,7 +1,7 @@
 using Boilerplate.Api.Common;
 using Boilerplate.Api.Configurations;
-using Boilerplate.Api.Endpoints;
-using Boilerplate.Infrastructure;
+using Api.Endpoints;
+using Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;

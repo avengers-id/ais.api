@@ -2,13 +2,13 @@
 using System;
 using System.Net;
 using FluentAssertions;
-using Boilerplate.Application.Common.Responses;
-using Boilerplate.Application.Features.Heroes;
-using Boilerplate.Application.Features.Heroes.CreateHero;
-using Boilerplate.Application.Features.Heroes.GetAllHeroes;
-using Boilerplate.Application.Features.Heroes.UpdateHero;
-using Boilerplate.Domain.Entities.Common;
-using Boilerplate.Domain.Entities.Enums;
+using Application.Common.Responses;
+using Application.Features.Heroes;
+using Application.Features.Heroes.CreateHero;
+using Application.Features.Heroes.GetAllHeroes;
+using Application.Features.Heroes.UpdateHero;
+using Domain.Entities.Common;
+using Domain.Entities.Enums;
 using System.Net.Http.Json;
 
 namespace Api.IntegrationTests;

@@ -1,4 +1,4 @@
-﻿namespace Boilerplate.Domain.Entities.Enums;
+﻿namespace Domain.Entities.Enums;
 
 public enum HeroType
 {

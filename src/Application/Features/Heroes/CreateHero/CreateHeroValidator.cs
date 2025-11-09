@@ -1,7 +1,7 @@
-﻿using Boilerplate.Application.Common;
+﻿using Application.Common;
 using FluentValidation;
 
-namespace Boilerplate.Application.Features.Heroes.CreateHero;
+namespace Application.Features.Heroes.CreateHero;
 
 public class CreateHeroValidator : AbstractValidator<CreateHeroRequest>
 {
