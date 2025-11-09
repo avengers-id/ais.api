@@ -1,4 +1,4 @@
-﻿using Boilerplate.Api.IntegrationTests.Common;
+﻿using Api.IntegrationTests.Common;
 using System;
 using System.Net;
 using FluentAssertions;
@@ -11,7 +11,7 @@ using Boilerplate.Domain.Entities.Common;
 using Boilerplate.Domain.Entities.Enums;
 using System.Net.Http.Json;
 
-namespace Boilerplate.Api.IntegrationTests;
+namespace Api.IntegrationTests;
 
 public class HeroControllerTests : BaseTest
 {

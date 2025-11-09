@@ -1,10 +1,10 @@
-using Boilerplate.Api.IntegrationTests.Helpers;
+using Api.IntegrationTests.Helpers;
 using System;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text;
 
-namespace Boilerplate.Api.IntegrationTests.Common;
+namespace Api.IntegrationTests.Common;
 
 [Collection("Test collection")]
 public abstract class BaseTest : IAsyncLifetime

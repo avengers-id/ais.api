@@ -1,4 +1,4 @@
-﻿namespace Boilerplate.Api.IntegrationTests.Common;
+﻿namespace Api.IntegrationTests.Common;
 
 [CollectionDefinition("Test collection")]
 public class SharedDatabaseCollection : ICollectionFixture<CustomWebApplicationFactory>

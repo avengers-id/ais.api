@@ -1,10 +1,10 @@
-﻿using Boilerplate.Api.IntegrationTests.Common;
+﻿using Api.IntegrationTests.Common;
 using FluentAssertions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
 using System.Net.Http.Json;
 
-namespace Boilerplate.Api.IntegrationTests;
+namespace Api.IntegrationTests;
 
 public class IdentityTests : BaseTest
 {

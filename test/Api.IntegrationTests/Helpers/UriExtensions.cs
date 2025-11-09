@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Linq;
 
-namespace Boilerplate.Api.IntegrationTests.Helpers;
+namespace Api.IntegrationTests.Helpers;
 public static class UriExtensions
 {
     public static string ToQueryString(this object request, string separator = ",")

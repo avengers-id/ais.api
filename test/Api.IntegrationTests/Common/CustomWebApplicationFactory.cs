@@ -1,4 +1,5 @@
-﻿using Boilerplate.Application.Common;
+﻿using Boilerplate.Api;
+using Boilerplate.Application.Common;
 using Boilerplate.Infrastructure;
 using EntityFramework.Exceptions.PostgreSQL;
 using Microsoft.AspNetCore.Hosting;
@@ -14,7 +15,7 @@ using System.Linq;
 using System.Net.Http;
 using Testcontainers.PostgreSql;
 
-namespace Boilerplate.Api.IntegrationTests.Common;
+namespace Api.IntegrationTests.Common;
 
 public class CustomWebApplicationFactory : WebApplicationFactory<IAssemblyMarker>, IAsyncLifetime
 {

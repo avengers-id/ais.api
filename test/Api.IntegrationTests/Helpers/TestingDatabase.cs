@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Boilerplate.Domain.Entities;
 using Boilerplate.Domain.Entities.Enums;
 
-namespace Boilerplate.Api.IntegrationTests.Helpers;
+namespace Api.IntegrationTests.Helpers;
 
 public static class TestingDatabase
 {
